@@ -1,0 +1,53 @@
+body {
+  font-family: "Vollkorn", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #120f16;
+}
+header {
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+main {
+  background-color: white;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  display: inline-block;
+}
+.nav-link:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    padding: 12px 20px;
+    display: block;
+    text-align: center;
+  }
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+  padding: 8px 24px;
+  display: inline-block;
+  background-color: #555;
+  font-size: large;
+}
+
+.button:hover {
+  background-color: #454545;
+}
